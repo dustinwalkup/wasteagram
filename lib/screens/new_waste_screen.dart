@@ -44,7 +44,12 @@ class _NewWasteScreenState extends State<NewWasteScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Semantics(
-                child: Expanded(child: Image.file(File(image!.path))),
+                child: Expanded(
+                    child: Image.file(
+                  File(image!.path),
+                  width: 400,
+                  height: 200,
+                )),
                 image: true,
                 onTapHint: 'Photo of food waste',
               ),
