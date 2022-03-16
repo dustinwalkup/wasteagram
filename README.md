@@ -1,16 +1,41 @@
-# wasteagram
+# Wasteagram
 
-A new Flutter project.
+A simple Flutter mobile application developed for restaraunt owners. The application  
+allows users (restaruant employees) to upload pictures of food waste in an effort to reduce the
+amount of food waste. 
 
-## Getting Started
+* For Web: https://github.com/dustinwalkup/wasteagram
 
-This project is a starting point for a Flutter application.
+## Technology Stack
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter
+* Firebase
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## How to Use 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Step 1:**
+
+Download or clone this repo by using the link below:
+
+```
+https://github.com/dustinwalkup/wasteagram.git
+```
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies: 
+
+```
+flutter pub get 
+```
+
+**Step 3:**
+
+This project uses `location` library that must be run without null safety, to run:
+
+```
+flutter run --no-sound-null-safety
+```
+## License
+
+Project is published under the MIT license. 
